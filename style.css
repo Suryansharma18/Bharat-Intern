@@ -1,0 +1,84 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bruno Ace', cursive;
+font-family: 'Noto Sans Miao', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Rubik Pixels', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+
+/* Basic styling */
+#about{
+    background-color: lightcyan;
+}
+#projects{
+    background-color: beige;
+}
+body {
+    
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color:rgb(79, 248, 79);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color:  #22cdbc;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav li:hover{
+    background-color: rgb(64, 244, 64);
+    border-radius: 8px;
+    
+}
+nav ul li a:hover{
+    color: rgb(43, 36, 36);
+
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6422cd;
+    color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
